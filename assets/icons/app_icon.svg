@@ -1,0 +1,42 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="1024" height="1024" rx="220" fill="url(#gradient)"/>
+
+  <!-- Eye white (sclera) - left eye -->
+  <ellipse cx="340" cy="480" rx="140" ry="120" fill="white"/>
+
+  <!-- Eye white (sclera) - right eye -->
+  <ellipse cx="684" cy="480" rx="140" ry="120" fill="white"/>
+
+  <!-- Pupil - left eye -->
+  <circle cx="340" cy="490" r="65" fill="#2D5016"/>
+
+  <!-- Pupil - right eye -->
+  <circle cx="684" cy="490" r="65" fill="#2D5016"/>
+
+  <!-- Eye highlight - left -->
+  <circle cx="360" cy="470" r="20" fill="white" opacity="0.8"/>
+
+  <!-- Eye highlight - right -->
+  <circle cx="704" cy="470" r="20" fill="white" opacity="0.8"/>
+
+  <!-- Cute blush - left -->
+  <ellipse cx="240" cy="580" rx="50" ry="25" fill="#FFB5B5" opacity="0.6"/>
+
+  <!-- Cute blush - right -->
+  <ellipse cx="784" cy="580" rx="50" ry="25" fill="#FFB5B5" opacity="0.6"/>
+
+  <!-- Smile -->
+  <path d="M 420 620 Q 512 700 604 620" stroke="#2D5016" stroke-width="20" stroke-linecap="round" fill="none"/>
+
+  <!-- Timer arc decoration -->
+  <circle cx="512" cy="820" r="60" fill="white" opacity="0.3"/>
+  <path d="M 512 780 L 512 820 L 542 800" stroke="#2D5016" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1024" y2="1024">
+      <stop offset="0%" stop-color="#A8D5A2"/>
+      <stop offset="100%" stop-color="#6B9B37"/>
+    </linearGradient>
+  </defs>
+</svg>
