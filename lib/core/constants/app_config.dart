@@ -10,9 +10,9 @@ class AppConfig {
   static const int minRestSeconds = 10;
   static const int maxRestSeconds = 60;
 
-  // AdMob IDs (테스트용)
-  static const String androidBannerAdId = 'ca-app-pub-3940256099942544/6300978111';
-  static const String iosBannerAdId = 'ca-app-pub-3940256099942544/2934735716';
+  // AdMob IDs (실제)
+  static const String androidBannerAdId = 'ca-app-pub-6739796437725652/9757000004';
+  static const String iosBannerAdId = 'ca-app-pub-3940256099942544/2934735716'; // iOS는 나중에 교체
   static const String androidInterstitialAdId = 'ca-app-pub-3940256099942544/1033173712';
   static const String iosInterstitialAdId = 'ca-app-pub-3940256099942544/4411468910';
 
